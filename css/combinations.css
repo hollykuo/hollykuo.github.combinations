@@ -1,0 +1,61 @@
+#horizontal {
+	position: relative;
+/* 	position: absollute; */
+/* 	 Setting absolute will lose div 1*/
+	left: 0;
+	height: 100vh;
+	min-width: 800vw;
+	background-image: 
+        url("https://jobus.tw/wp-content/uploads/2020/11/%E4%BF%A1%E7%BE%A9%E8%B7%AFmap_%E5%B7%A5%E4%BD%9C%E5%8D%80%E5%9F%9F-1-%E8%A4%87%E6%9C%AC-7.png");
+	/* background: linear-gradient(90deg, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 1) 100%); */
+}
+body {
+		overflow-x: hidden;
+}
+
+
+#section1 div:first-child {
+      background-image: url("https://p4css.github.io/webScroll/assets/taipei-1.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+  #section2 div:first-child {
+      background-image: url("https://img.technews.tw/wp-content/uploads/2020/06/10134826/2020-06-10_120654.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+  #section3 div:first-child {
+      background-image: url("https://www.delta-foundation.org.tw/upload/userfiles/2020110902.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+  #section4 div:first-child {
+      background-image: url("https://cdn.unwire.pro/wp-content/uploads/2019/03/autonomous-bus-media-event-6.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+
+#video {
+    position: fixed;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -1;
+	top: -20vh;
+}
+
+h1{
+	position:relative;
+	top:50vh;
+	left:20vw;
+	background-color:white;
+}
